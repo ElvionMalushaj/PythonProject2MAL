@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtuelle Umgebung
+.venv/
+venv/
+env/
+
+# PyCharm (Projekteinstellungen bleiben lokal)
+.idea/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Erzeugte Artefakte werden neu generiert (python src/main.py).
+# Zum Mitliefern der Ergebnisse die folgenden Zeilen auskommentieren:
+# outputs/figures/
+# outputs/metrics.json
+# outputs/descriptive_statistics.csv
